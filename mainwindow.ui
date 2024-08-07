@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>951</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Acceuil">
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-90</y>
+        <width>1061</width>
+        <height>841</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-80</y>
+        <width>191</width>
+        <height>731</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>191</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(248, 248, 255);
+    border: white 2px solid;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+	 border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+    transition: background-color 0.3s ease;
+</string>
+       </property>
+       <property name="text">
+        <string>Acceuil</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid black;
+cursor:pointer;
+background-color: #none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px ;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Inserer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_27">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Suprimer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_28">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>450</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Recherche</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_29">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>530</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Data base</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>131</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="racCharger">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>350</y>
+        <width>131</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size : 20px ;</string>
+      </property>
+      <property name="text">
+       <string>Charger</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="racTaille">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>350</y>
+        <width>141</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size : 20px ;
+</string>
+      </property>
+      <property name="text">
+       <string>Taille</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>450</y>
+        <width>801</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px ;</string>
+      </property>
+      <property name="text">
+       <string>Veuillez utiliser le menu pour naviguer à travers les différentes fonctionnalités.  </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>280</y>
+        <width>601</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 15px;</string>
+      </property>
+      <property name="text">
+       <string> raccourci des fonctionnalité de Base :</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="rachach">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>350</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size : 20px ;
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Choisir une fonction Hachage</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SansHach</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>100</y>
+        <width>971</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+font: 72pt &quot;Segoe UI&quot;;
+font: 48pt &quot;Segoe UI&quot;;
+font: 36pt &quot;Segoe UI&quot;;
+font: 48pt &quot;Segoe UI&quot;;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-weight : bold ;
+color :  #3c424c;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;      Welcome&lt;br/&gt;to TurboSearch&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>30</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: italic 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Hachage_Actuel :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="actu">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>30</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+border-radius: 15px;
+padding-left:7px;
+font-size: 14pt ;
+font-family:'Orbitron',sans-serif;
+color:  #3c424c;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="insertion">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>60</y>
+        <width>441</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+font-size : 14px;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+
+</string>
+      </property>
+      <property name="title">
+       <string>Veillez saisir les champs </string>
+      </property>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Marque</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>151</y>
+         <width>47</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modele</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>gamme</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Annee</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>340</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family: 'Poppins', sans-serif;</string>
+       </property>
+       <property name="text">
+        <string>présentation</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererMatricule">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>40</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererMarque">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>100</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererModel">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>150</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererGamme">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>200</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererAnnee">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>250</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="insererPresentation">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>340</y>
+         <width>261</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Helvetica Neue','Arial','sans-serif'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica Neue,Arial,sans-serif';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="insererbtn">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Inserer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="insererDelbtn">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color : #3c424c;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Effacer</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="insererPhoto">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>300</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Photo</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Matricule</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>140</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+    border: white 2px solid;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+	 border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Inserer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>141</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Acceuil</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>-90</x>
+        <y>-30</y>
+        <width>1421</width>
+        <height>981</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 14px;
+font-family: Georgia, serif;
+
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>161</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Suprimer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>370</y>
+        <width>161</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Recherche</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>161</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Data base</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>181</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>181</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>180</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+     </widget>
+     <zorder>listWidget_2</zorder>
+     <zorder>groupBox</zorder>
+     <zorder>label_4</zorder>
+     <zorder>widget_2</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>widget_3</zorder>
+     <zorder>pushButton_9</zorder>
+     <zorder>pushButton_12</zorder>
+     <zorder>pushButton_13</zorder>
+     <zorder>widget_4</zorder>
+     <zorder>pushButton_4</zorder>
+    </widget>
+    <widget class="QWidget" name="Suppression">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>200</y>
+        <width>621</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+font-size : 14px;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+
+</string>
+      </property>
+      <property name="title">
+       <string>Veillez saisir les champs </string>
+      </property>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>70</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Matricule :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="suppressionMatricile">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>70</y>
+         <width>291</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Inserer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : grey ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Effacer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="suppressiondelbtn">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : #3c424c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Effacer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="suppressionbtn">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>161</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+	cursor: pointer;
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>80</y>
+        <width>671</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffe5e5;
+color: #ff4d4d;
+	font-size: 13px ;
+    font-weight: bold;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string>Attention ! La suppression de la voiture entraînera également sa suppression dans la base de données.</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-80</y>
+        <width>191</width>
+        <height>741</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>131</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+QPushButtom</string>
+       </property>
+       <property name="text">
+        <string>Inserer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>161</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Acceuil</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>450</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Recherche</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>530</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Data base</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>370</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(248, 248, 255);
+    border: white 2px solid;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+	 border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QListWidget" name="listWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>-30</x>
+        <y>-60</y>
+        <width>1321</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Georgia</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 14px;
+font-family: Georgia, serif;
+
+
+
+</string>
+      </property>
+     </widget>
+     <zorder>listWidget_3</zorder>
+     <zorder>groupBox_2</zorder>
+     <zorder>label_15</zorder>
+     <zorder>widget_9</zorder>
+    </widget>
+    <widget class="QWidget" name="Recherche">
+     <widget class="QListWidget" name="listWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>-125</x>
+        <y>-69</y>
+        <width>1071</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 14px;
+font-family: Georgia, serif;
+
+
+</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>200</y>
+        <width>621</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+font-size : 14px;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+
+</string>
+      </property>
+      <property name="title">
+       <string>Veillez saisir les champs </string>
+      </property>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>70</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Matricule:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="rechercheMatricule">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>70</y>
+         <width>301</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Inserer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>420</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : grey ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Effacer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="recherchedelbtn">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>170</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+background-color : #3c424c
+
+
+   </string>
+       </property>
+       <property name="text">
+        <string>Effacer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="recherchebtn">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>rechercher</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_19">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Inserer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_23">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>161</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+      </property>
+      <property name="text">
+       <string>Data base</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_8" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-11</y>
+        <width>201</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>390</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(248, 248, 255);
+    border: white 2px solid;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+	 border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Recherche</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>460</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Data base</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>161</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;
+    border: white 2px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;</string>
+       </property>
+       <property name="text">
+        <string>Acceuil</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>listWidget_4</zorder>
+     <zorder>groupBox_3</zorder>
+     <zorder>pushButton_23</zorder>
+     <zorder>widget_8</zorder>
+     <zorder>pushButton_19</zorder>
+     <zorder>pushButton_20</zorder>
+    </widget>
+    <widget class="QWidget" name="affichageDB">
+     <widget class="QListWidget" name="listWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>-35</x>
+        <y>-49</y>
+        <width>1121</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 14px;
+font-family: Georgia, serif;
+
+</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-40</x>
+        <y>-10</y>
+        <width>1061</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : #3c424c
+</string>
+      </property>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>0</y>
+         <width>451</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size : 40px ; 
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-weight : bold ;
+color : white ;</string>
+       </property>
+       <property name="text">
+        <string>Base de donnee</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="base">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>901</width>
+        <height>451</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : none ;
+    border:2px solid grey;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+      </property>
+      <property name="text">
+       <string>&lt;-- Acceuil</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Taille">
+     <widget class="QListWidget" name="listWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>-15</x>
+        <y>-49</y>
+        <width>961</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 20px;
+font-family: Georgia, serif;
+
+</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-100</x>
+        <y>-10</y>
+        <width>1061</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : grey ;
+</string>
+      </property>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>10</y>
+         <width>631</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size : 40px ; 
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-weight : bold ;
+color : white ;</string>
+       </property>
+       <property name="text">
+        <string>GUIDE</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="sortTaille">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>290</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : none ;
+    border:2px solid grey;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+      </property>
+      <property name="text">
+       <string>&lt;-- Acceuil</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>90</y>
+        <width>731</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;                                &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;                                  &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; font-style:italic; text-decoration: underline;&quot;&gt;Guide D'utilisation des Fonctionnalités&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Basee de Donnee&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Charger :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Cliquez sur &lt;span style=&quot; font-weight:700;&quot;&gt;Base -&amp;gt; Charger&lt;/span&gt; pour importer la base de données de voitures. Cette opération initialise la table de hachage avec les données existantes.&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Une boîte de dialogue apparaîtra pour confirmer l'action. Assurez-vous que la base de données est prête avant de procéder.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Afficher :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Utilisez &lt;span style=&quot; font-weight:700;&quot;&gt;Base -&amp;gt; Afficher&lt;/span&gt; pour voir la liste des voitures dans la base de données. &lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Les détails incluent la marque, le modèle, l'année, une photo du véhicule et une petite description de la voiture&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Taille :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sélectionnez &lt;span style=&quot; font-weight:700;&quot;&gt;Base -&amp;gt; Taille&lt;/span&gt; pour afficher le nombre total de voitures actuellement enregistrées dans la base.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sauvegarder :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pour sauvegarder les modifications apportées aux données, choisissez &lt;span style=&quot; font-weight:700;&quot;&gt;Base -&amp;gt; Sauvegarder&lt;/span&gt;. Cela met à jour la base de données avec les entrées actuelles de la table de hachage.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h4 style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Voiture&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rechercher :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Allez dans &lt;span style=&quot; font-weight:700;&quot;&gt;Voiture -&amp;gt; Rechercher&lt;/span&gt; pour trouver une voiture spécifique. Entrez la marque de la voiture pour afficher une liste correspondante. Vous pouvez alors cliquer sur une voiture pour voir ses détails.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Insérer :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Pour ajouter une nouvelle voiture, cliquez sur &lt;span style=&quot; font-weight:700;&quot;&gt;Voiture -&amp;gt; Insérer&lt;/span&gt;. Une boîte de dialogue s'ouvrira pour entrer les informations suivantes : marque, modèle, année, gamme, et photo. Une fois les détails saisis, cliquez sur &lt;span style=&quot; font-weight:700;&quot;&gt;Ajouter&lt;/span&gt; pour enregistrer la voiture.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Supprimer :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sélectionnez &lt;span style=&quot; font-weight:700;&quot;&gt;Voiture -&amp;gt; Supprimer&lt;/span&gt; pour retirer une voiture de la base. Entrez la marque et le modèle, puis confirmez la suppression.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h4 style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/h4&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Fonction De Hachage&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Choix de la fonction de hachage :
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vous pouvez choisir parmi différentes fonctions de hachage via &lt;span style=&quot; font-weight:700;&quot;&gt;FonctionHachage&lt;/span&gt;. Par exemple, choisissez &lt;span style=&quot; font-weight:700;&quot;&gt;f1&lt;/span&gt; pour utiliser la première fonction de hachage. Utilisez &lt;span style=&quot; font-weight:700;&quot;&gt;SansHach&lt;/span&gt; pour voir les performances sans hachage.&lt;/li&gt;
+&lt;li style=&quot; font-size:12pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Les fonctions de hachage sont conçues pour minimiser les collisions et maximiser la vitesse d'accès.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="resultat">
+     <widget class="QListWidget" name="listWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>-75</x>
+        <y>-69</y>
+        <width>1101</width>
+        <height>731</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(248, 248, 255);
+font-size : 14px;
+font-family: Georgia, serif;
+
+</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>160</y>
+        <width>811</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font-size : 14px;
+font-family: Georgia, serif;
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="displayMarque">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>40</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="displayModel">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>120</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="displayAnnee">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>200</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="displayGamme">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>290</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="displayPresentation">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>360</y>
+         <width>691</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="displayPhoto">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>40</y>
+         <width>331</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : white ;
+border : 1px solid black ;
+border-raduis : 5px ;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-50</x>
+        <y>0</y>
+        <width>1061</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-raduis : 30 px ;
+background-color : grey ;
+</string>
+      </property>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>0</y>
+         <width>631</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size : 40px ; 
+font-family: 'Helvetica Neue', Arial, sans-serif;
+font-weight : bold ;
+color : white ;</string>
+       </property>
+       <property name="text">
+        <string>Resultat de votre recherche </string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : none ;
+    border:2px solid grey;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+   </string>
+      </property>
+      <property name="text">
+       <string>&lt;-- Acceuil</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBase">
+    <property name="title">
+     <string>Base</string>
+    </property>
+    <addaction name="actionCharger"/>
+    <addaction name="actionAffichage"/>
+    <addaction name="actionTaille"/>
+    <addaction name="actionActuell_hash"/>
+    <addaction name="actionSauvegarder"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuVoiture">
+    <property name="title">
+     <string>Voiture</string>
+    </property>
+    <addaction name="actionInsertion"/>
+    <addaction name="actionSuppression"/>
+    <addaction name="actionRecherche"/>
+   </widget>
+   <widget class="QMenu" name="menuFoncctionHachage">
+    <property name="title">
+     <string>FoncctionHachage</string>
+    </property>
+    <addaction name="actionF1"/>
+    <addaction name="actionF2"/>
+    <addaction name="actionF3"/>
+    <addaction name="separator"/>
+    <addaction name="actionSanshach"/>
+   </widget>
+   <widget class="QMenu" name="menuCourbe">
+    <property name="title">
+     <string>Courbe</string>
+    </property>
+    <addaction name="actionHachage_sansHachage"/>
+    <addaction name="actionHachage_fi_Hachage_fj"/>
+    <addaction name="actionf1_vs_f4"/>
+    <addaction name="actionf2_vs_f4"/>
+    <addaction name="actionf1_vs_f2"/>
+    <addaction name="actionf1_vs_f3"/>
+    <addaction name="actionf2_vs_f3"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionA_propos"/>
+   </widget>
+   <addaction name="menuBase"/>
+   <addaction name="menuVoiture"/>
+   <addaction name="menuFoncctionHachage"/>
+   <addaction name="menuCourbe"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <action name="actionCharger">
+   <property name="text">
+    <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionAffichage">
+   <property name="text">
+    <string>Affichage</string>
+   </property>
+  </action>
+  <action name="actionTaille">
+   <property name="text">
+    <string>Taille</string>
+   </property>
+  </action>
+  <action name="actionInsertion">
+   <property name="text">
+    <string>Insertion</string>
+   </property>
+  </action>
+  <action name="actionSuppression">
+   <property name="text">
+    <string>Suppression</string>
+   </property>
+  </action>
+  <action name="actionRecherche">
+   <property name="text">
+    <string>Recherche</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionF1">
+   <property name="text">
+    <string>f1</string>
+   </property>
+  </action>
+  <action name="actionF2">
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </action>
+  <action name="actionF3">
+   <property name="text">
+    <string>f3</string>
+   </property>
+  </action>
+  <action name="actionSanshach">
+   <property name="text">
+    <string>Sanshach</string>
+   </property>
+  </action>
+  <action name="actionHachage_sansHachage">
+   <property name="text">
+    <string>hachage/sansHachage</string>
+   </property>
+  </action>
+  <action name="actionHachage_fi_Hachage_fj">
+   <property name="text">
+    <string>Hachage(fi)/Hachage(fj)</string>
+   </property>
+  </action>
+  <action name="actionFfd">
+   <property name="text">
+    <string>ffd</string>
+   </property>
+  </action>
+  <action name="actionActuell_hash">
+   <property name="text">
+    <string>Actuell_hash</string>
+   </property>
+  </action>
+  <action name="actionA_propos">
+   <property name="text">
+    <string>GUIDE</string>
+   </property>
+  </action>
+  <action name="actionFonctionnement">
+   <property name="text">
+    <string>Fonctionnement</string>
+   </property>
+  </action>
+  <action name="actionf1_vs_f4">
+   <property name="text">
+    <string>f1 vs f4</string>
+   </property>
+  </action>
+  <action name="actionf2_vs_f4">
+   <property name="text">
+    <string>f2 vs f4</string>
+   </property>
+  </action>
+  <action name="actionf1_vs_f2">
+   <property name="text">
+    <string>f1 vs f2</string>
+   </property>
+  </action>
+  <action name="actionf1_vs_f3">
+   <property name="text">
+    <string>f1 vs f3</string>
+   </property>
+  </action>
+  <action name="actionf2_vs_f3">
+   <property name="text">
+    <string>f2 vs f3</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_9</tabstop>
+  <tabstop>rachach</tabstop>
+  <tabstop>pushButton_12</tabstop>
+  <tabstop>insererMatricule</tabstop>
+  <tabstop>insererMarque</tabstop>
+  <tabstop>insererModel</tabstop>
+  <tabstop>insererGamme</tabstop>
+  <tabstop>insererAnnee</tabstop>
+  <tabstop>insererPresentation</tabstop>
+  <tabstop>insererbtn</tabstop>
+  <tabstop>insererDelbtn</tabstop>
+  <tabstop>insererPhoto</tabstop>
+  <tabstop>racCharger</tabstop>
+  <tabstop>suppressionMatricile</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>suppressiondelbtn</tabstop>
+  <tabstop>suppressionbtn</tabstop>
+  <tabstop>listWidget_4</tabstop>
+  <tabstop>rechercheMatricule</tabstop>
+  <tabstop>pushButton_10</tabstop>
+  <tabstop>pushButton_11</tabstop>
+  <tabstop>recherchedelbtn</tabstop>
+  <tabstop>recherchebtn</tabstop>
+  <tabstop>listWidget_5</tabstop>
+  <tabstop>base</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>listWidget_6</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>listWidget_7</tabstop>
+  <tabstop>listWidget</tabstop>
+  <tabstop>listWidget_2</tabstop>
+  <tabstop>racTaille</tabstop>
+  <tabstop>pushButton_13</tabstop>
+  <tabstop>pushButton_14</tabstop>
+  <tabstop>pushButton_15</tabstop>
+  <tabstop>pushButton_17</tabstop>
+  <tabstop>pushButton_19</tabstop>
+  <tabstop>pushButton_20</tabstop>
+  <tabstop>pushButton_21</tabstop>
+  <tabstop>pushButton_16</tabstop>
+  <tabstop>pushButton_22</tabstop>
+  <tabstop>listWidget_3</tabstop>
+  <tabstop>pushButton_23</tabstop>
+  <tabstop>pushButton_24</tabstop>
+  <tabstop>pushButton_18</tabstop>
+  <tabstop>pushButton_25</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>pushButton_26</tabstop>
+  <tabstop>pushButton_27</tabstop>
+  <tabstop>pushButton_28</tabstop>
+  <tabstop>pushButton_29</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
