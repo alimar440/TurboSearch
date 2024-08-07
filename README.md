@@ -4,6 +4,12 @@ TurboSearch est une application de gestion de voitures en C++ utilisant Qt pour 
 
 ## Fonctionnalités
 
+### Page d'Accueil
+
+![Page d'Accueil](images/page_accueil.png)
+
+Accédez à toutes les fonctionnalités depuis la page d'accueil.
+
 ### Insertion
 
 ![Insertion](images/page_insertion.png)
@@ -28,11 +34,7 @@ Supprimez des enregistrements de voitures par matricule.
 
 Visualisez la liste des voitures enregistrées.
 
-### Page d'Accueil
 
-![Page d'Accueil](images/page_accueil.png)
-
-Accédez à toutes les fonctionnalités depuis la page d'accueil.
 
 ## Installation
 
